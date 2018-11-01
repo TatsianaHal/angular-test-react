@@ -1,0 +1,32 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  width: 700px;
+  border: 1px solid #1E90FF;
+  border-radius: 5px;
+}
+.settings__part {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.settings__img {
+  height: 120px;
+  width: 200px;
+}
+
+.settings__img:hover {
+  box-shadow: 0 0 10px #696969;
+}
+
+.settings__input {
+  width: 400px;
+  border: 1px solid #1E90FF;
+  border-radius: 5px;
+}
+
+

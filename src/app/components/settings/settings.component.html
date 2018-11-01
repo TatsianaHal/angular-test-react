@@ -1,0 +1,24 @@
+<div class="settings">
+
+  <div class="settings__part">
+      <div class="settings__img" *ngFor="let img of imgs" (click)="onClick(img)">
+        <img class="image" [src]="img.src" [alt]="alt" width="200" height="120">
+      </div>
+  </div>
+
+  <div class="settings__part">
+      <input class="settings__input" type="text" value="">
+  </div>
+
+  <div class="settings__part">
+    <p>
+        <input type="radio"> Add border
+    </p>
+    <p>
+        <input type="radio"> Add shadow
+    </p>
+  </div>
+
+</div>
+
+
